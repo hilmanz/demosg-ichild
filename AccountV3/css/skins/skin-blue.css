@@ -47,14 +47,14 @@
 .skin-blue .main-header .logo {
   background-color: #367fa9;
   
-  background:#367fa9 url(/AccountV3/images/logo.png) no-repeat center center;background-size:auto 90%;
+  background:#367fa9 url(../../images/logo.png) no-repeat center center;background-size:auto 90%;
   color: #ffffff;
   border-bottom: 0px solid transparent;
 }
 .skin-blue .main-header .logo.cma_logo {
   background-color: #367fa9;
   
-  background:#367fa9 url(/AccountV3/images/logo3.png) no-repeat center center;background-size:auto 90%;
+  background:#367fa9 url(../../images/logo3.png) no-repeat center center;background-size:auto 90%;
   color: #ffffff;
   border-bottom: 0px solid transparent;
 }

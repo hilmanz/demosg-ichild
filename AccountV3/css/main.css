@@ -9,20 +9,20 @@
 .login .formrow{position:relative;margin:0 15px;}
 .login_cnt .login_logo{text-align:center;margin-top:0;}
 .login .formrow .txt{width:100%;height:40px;-webkit-appearance:none;outline:none;line-height:40px;padding:0 35px 0 50px;border:1px #4cc1d2 solid;background:#fff;box-sizing:border-box;color:#333;}
-.login .formrow label{background:#b5e6ea url(/AccountV3/images/input_location.png) no-repeat 0 0;background-size:100% 100%;width:40px;height:39px;position:absolute;top:1px;left:1px;border-radius:4px 0 0 4px;z-index:10;}
-.login .formrow label.user_icon{background:#b5e6ea url(/AccountV3/images/input_user.png) no-repeat 0 0;background-size:100% 100%;}
-.login .formrow label.passcode_icon{background:#b5e6ea url(/AccountV3/images/input_passcode.png) no-repeat 0 0;background-size:100% 100%;}
-.login .formrow a.input_del{position:absolute;right:10px;top:10px;background:url(/AccountV3/images/input_delete.png) no-repeat 0 0;background-size:100% 100%;width:20px;height:20px;text-indent:30px;line-height:30px;overflow:hidden;}
-.login .formrow a.input_right{position:absolute;right:10px;top:10px;background:url(/AccountV3/images/input_right.png) no-repeat 0 0;background-size:100% 100%;width:20px;height:20px;text-indent:30px;line-height:30px;overflow:hidden;}
+.login .formrow label{background:#b5e6ea url(../images/input_location.png) no-repeat 0 0;background-size:100% 100%;width:40px;height:39px;position:absolute;top:1px;left:1px;border-radius:4px 0 0 4px;z-index:10;}
+.login .formrow label.user_icon{background:#b5e6ea url(../images/input_user.png) no-repeat 0 0;background-size:100% 100%;}
+.login .formrow label.passcode_icon{background:#b5e6ea url(../images/input_passcode.png) no-repeat 0 0;background-size:100% 100%;}
+.login .formrow a.input_del{position:absolute;right:10px;top:10px;background:url(../images/input_delete.png) no-repeat 0 0;background-size:100% 100%;width:20px;height:20px;text-indent:30px;line-height:30px;overflow:hidden;}
+.login .formrow a.input_right{position:absolute;right:10px;top:10px;background:url(../images/input_right.png) no-repeat 0 0;background-size:100% 100%;width:20px;height:20px;text-indent:30px;line-height:30px;overflow:hidden;}
 .login .formrow .select_style{width:100%;}
 .login .formrow .selected{width:100%;height:40px;line-height:40px;padding:0 35px 0 50px;border:1px #4cc1d2 solid;background:#fff;box-sizing:border-box;color:#999;position:relative;}
-.login .formrow .selected span{position:absolute;right:10px;top:10px;width:20px;height:20px;line-height:30px;text-indent:30px;overflow:hidden;background:url(/AccountV3/images/input_down.png) no-repeat 0 0;background-size:100% 100%;}
+.login .formrow .selected span{position:absolute;right:10px;top:10px;width:20px;height:20px;line-height:30px;text-indent:30px;overflow:hidden;background:url(../images/input_down.png) no-repeat 0 0;background-size:100% 100%;}
 .login .formrow .select_option{width:100%;position:absolute;left:0;top:39px;z-index:100;}
 .login .formrow .select_option div{margin-left:40px;background:#f0f8fc;border:1px #b5e6ea solid;border-radius:0 0 4px 4px;padding:0;overflow:hidden;}
 .login .formrow .select_option a{width:100%;display:block;height:40;line-height:40px;padding:0 15px;color:#555;}
 .login .formrow .select_option a + a{border-top:1px #b5e6ea solid;}
-.login .formrow.other_info span a{background:url(/AccountV3/images/check.png) no-repeat 0 0;background-size:100% 100%;width:40px;height:40px;display:inline-block;vertical-align:middle;line-height:50px;text-indent:50px;overflow:hidden;}
-.login .formrow.other_info span a.checked{background:url(/AccountV3/images/check_select.png) no-repeat 0 0;background-size:100% 100%;}
+.login .formrow.other_info span a{background:url(../images/check.png) no-repeat 0 0;background-size:100% 100%;width:40px;height:40px;display:inline-block;vertical-align:middle;line-height:50px;text-indent:50px;overflow:hidden;}
+.login .formrow.other_info span a.checked{background:url(../images/check_select.png) no-repeat 0 0;background-size:100% 100%;}
 .login .formrow.other_info span{font-size:13px;color:#333;}
 .login .formrow.other_info .forgot{font-size:13px;position:absolute;right:10px;top:10px;color:#333;}
 .login .formrowbtn{text-align:center;margin:0 15px;}
@@ -398,12 +398,12 @@ em.vet_info a{vertical-align:text-top;line-height:normal;height:30px;}
 .weather_temp{font-size:48px;color:#999;padding-top:10px;}
 .weather_temp i{font-size:18px;color:#999;}
 .weather_pic{width:72px;height:72px;display:inline-block;}
-.cloud{background:url(/AccountV3/images/t011dcb216f11476b0f.png) no-repeat -72px 0;}
+.cloud{background:url(../images/t011dcb216f11476b0f.png) no-repeat -72px 0;}
 .weather span:nth-child(3){padding-top:20px;}
 .weahter_other li{display:inline-block;margin-right:10px;color:#999;}
 .weahter_other li label{width:29px;height:28px;display:inline-block;margin-right:5px;vertical-align:middle;}
-.weahter_other li.wind label{background:url(/AccountV3/images/t012dd226c54bd13f0e.png) no-repeat 0 0;}
-.weahter_other li.humidity label{background:url(/AccountV3/images/t012dd226c54bd13f0e.png) no-repeat 0 -28px;}
+.weahter_other li.wind label{background:url(../images/t012dd226c54bd13f0e.png) no-repeat 0 0;}
+.weahter_other li.humidity label{background:url(../images/t012dd226c54bd13f0e.png) no-repeat 0 -28px;}
 
 .feed_share{border-bottom:1px #ddd solid;position:relative;padding-right:80px;}
 .feed_share .title{color:#19cc03;}
@@ -703,7 +703,7 @@ em.vet_info a{vertical-align:text-top;line-height:normal;height:30px;}
 .dashboard_family label{display:block;margin:10px auto;width:45px;height:45px;border-radius: 50%;overflow: hidden;cursor:pointer;}
 .dashboard_family label img{width:100%;}
 .dashboard_family span{color:#fff;}
-.bank_card_list .add_item{border-radius:50%;display:inline-block;width: 40px;height:40px;background:#80d7f5 url(/AccountV3/images/add_fees.png) no-repeat center center;background-size: 80% 80%;vertical-align: middle;}
+.bank_card_list .add_item{border-radius:50%;display:inline-block;width: 40px;height:40px;background:#80d7f5 url(../images/add_fees.png) no-repeat center center;background-size: 80% 80%;vertical-align: middle;}
 .bank_card_list li{background: #fff;border-bottom:1px #ddd dashed;position: relative;padding:8px 0;}
 .bank_card_list li h1 div{position: absolute;right:0;top:8px;}
 .bank_card_list li h1 label{font-size:16px;line-height: 30px;padding-left: 10px;color: #303030;font-weight: bold;}
@@ -782,7 +782,7 @@ a.ec_submenu_next:before{content:"\f125";color:#fff;font-family:FontAwesome;font
 .ec_containt header span{line-height:30px;margin-left:10px;}
 .ec_containt header span strong{font-weight:bold;color:#fb715e;}
 
-.ec_containt .rows .password_btn{border-radius:4px;width:40px;height:28px;line-height:28px;background:url(/AccountV3/images/password.png) no-repeat 12px 8px;background-size:40% auto;}
+.ec_containt .rows .password_btn{border-radius:4px;width:40px;height:28px;line-height:28px;background:url(../images/password.png) no-repeat 12px 8px;background-size:40% auto;}
 .family_head{background:#e4eff2;position: relative;padding:5px;padding-right: 60px;min-height: 30px;}
 .family_head span{color: #3c8dbc;}
 .family_head a{position: absolute;right:5px;top:5px;background: #92cae5;line-height: 30px;height:30px;}
@@ -1052,7 +1052,7 @@ a.ec_submenu_next:before{content:"\f125";color:#fff;font-family:FontAwesome;font
 .pay_type2 .rows_head{padding-left:40px;}
 .pay_type2 .rows_head .opt.danradio{line-height:41px;position:absolute;left:0;top:0;text-align: center;width:40px;}
 .pay_date{position: relative;text-align: left;font-size:16;font-weight: bold;line-height: 34px;background:#e4eff2;padding:0 10px;color:#367fa9;margin-top:10px;}
-.pay_date .txt_date{position:absolute;right:0;top:0;background:url(/AccountV3/images/bi_date_icon.png) no-repeat right 10px;width:110px;}
+.pay_date .txt_date{position:absolute;right:0;top:0;background:url(../images/bi_date_icon.png) no-repeat right 10px;width:110px;}
 .payments_sub_list{text-align: left;margin:5px;margin-top:0;}
 .payments_sub_list li {background:#fff;border-bottom:1px #ddd dashed;padding:10px;}
 .payments_sub_list li h1{position:relative;padding-right:60px;font-size:16px;}
@@ -1062,7 +1062,7 @@ a.ec_submenu_next:before{content:"\f125";color:#fff;font-family:FontAwesome;font
 .payments_sub_list li p span{color:#999;display:inline-block;margin-left:15px;float:right;font-size:12px;}
 .payments_sub_list_img li .head{position: relative;padding-left:65px;}
 .payments_sub_list_img li .head.unselected{cursor: pointer;}
-.payments_sub_list_img li .head label{width:45px;height:45px;overflow:hidden;display:block;position: absolute;left:10px;top:0;background:url(/AccountV3/images/no_pic_icon.png) no-repeat 0 0;background-size:100%;}
+.payments_sub_list_img li .head label{width:45px;height:45px;overflow:hidden;display:block;position: absolute;left:10px;top:0;background:url(../images/no_pic_icon.png) no-repeat 0 0;background-size:100%;}
 .payments_sub_list_img li .head label img{width:100%;}
 .payments_sub_list_select{margin:0;}
 .payments_sub_list_select li .head h1 span{right: 60px;}
@@ -1085,11 +1085,11 @@ a.ec_submenu_next:before{content:"\f125";color:#fff;font-family:FontAwesome;font
 .payments_sub_list_select .discount h1 strong{position: absolute;right:60px;top:0;}
 .payments_sub_list_select p em{font-style:normal;}
 .payments_sub_list_select p i{font-style:normal;color:#fb715e;font-weight:bold;}
-.payments_sub_list .add_item{border-radius:50%;display:inline-block;width: 40px;height:40px;background:#80d7f5 url(/AccountV3/images/add_fees.png) no-repeat center center;background-size: 80% 80%;vertical-align: middle;}
-.payments_sub_list .add_fee{border-radius:50%;display:inline-block;width: 40px;height:40px;background:#80d7f5 url(/AccountV3/images/add_fees.png) no-repeat center center;background-size: 80% 80%;vertical-align: middle;}
-.payments_sub_list .add_subsidy{border-radius:50%;display:inline-block;width: 40px;height:40px;background:#3cd070 url(/AccountV3/images/add_fees.png) no-repeat center center;background-size: 80% 80%;vertical-align: middle;}
-.payments_sub_list .add_discount{border-radius:50%;display:inline-block;width: 40px;height:40px;background:#3cd070 url(/AccountV3/images/add_fees.png) no-repeat center center;background-size: 80% 80%;vertical-align: middle;}
-.payments_sub_list .add_location{border-radius:50%;display:inline-block;width: 40px;height:40px;background:#3cd070 url(/AccountV3/images/add_fees.png) no-repeat center center;background-size: 80% 80%;vertical-align: middle;}
+.payments_sub_list .add_item{border-radius:50%;display:inline-block;width: 40px;height:40px;background:#80d7f5 url(../images/add_fees.png) no-repeat center center;background-size: 80% 80%;vertical-align: middle;}
+.payments_sub_list .add_fee{border-radius:50%;display:inline-block;width: 40px;height:40px;background:#80d7f5 url(../images/add_fees.png) no-repeat center center;background-size: 80% 80%;vertical-align: middle;}
+.payments_sub_list .add_subsidy{border-radius:50%;display:inline-block;width: 40px;height:40px;background:#3cd070 url(../images/add_fees.png) no-repeat center center;background-size: 80% 80%;vertical-align: middle;}
+.payments_sub_list .add_discount{border-radius:50%;display:inline-block;width: 40px;height:40px;background:#3cd070 url(../images/add_fees.png) no-repeat center center;background-size: 80% 80%;vertical-align: middle;}
+.payments_sub_list .add_location{border-radius:50%;display:inline-block;width: 40px;height:40px;background:#3cd070 url(../images/add_fees.png) no-repeat center center;background-size: 80% 80%;vertical-align: middle;}
 .payments_sub_list2{margin:10px 0;border-bottom:1px #eee solid;}
 .payments_sub_list2 li{background: #fff;border-top:1px #eee solid;border-bottom: none;padding:0;}
 .payments_sub_list2 li h1{padding:10px;padding-left:40px;}
@@ -1211,7 +1211,7 @@ a.ec_submenu_next:before{content:"\f125";color:#fff;font-family:FontAwesome;font
 .add_discount_list span.no{float:right;text-align: right;width:35%;}
 .add_discount_list select{display:inline-block;line-height: 30px;height: 30px;border:1px #ddd solid;margin-top:5px;}
 .add_discount_list input{width:60px;text-align:center;}
-.add_discount_list .add_discount{border-radius:50%;display:inline-block;width: 40px;height:40px;background:#80d7f5 url(/AccountV3/images/add_fees.png) no-repeat center center;background-size: 80% 80%;vertical-align: middle;}
+.add_discount_list .add_discount{border-radius:50%;display:inline-block;width: 40px;height:40px;background:#80d7f5 url(../images/add_fees.png) no-repeat center center;background-size: 80% 80%;vertical-align: middle;}
 .payments_list{text-align: left;}
 .payments_list li{position: relative;border-bottom:1px #ddd dashed;background:#fff;padding:10px;}
 .payments_list li label{font-size:16px;display: block;margin-bottom:5px;}
@@ -1220,11 +1220,11 @@ a.ec_submenu_next:before{content:"\f125";color:#fff;font-family:FontAwesome;font
 .payments_list2 li span{right:80px;}
 .payments_list h1{position: relative;}
 .payments_list h1 div{position: absolute;right:0;top:0;width:80px;}
-.void_view .void_pic{background:url(/AccountV3/images/void.gif) no-repeat center 0;}
-.refund_receipt .payment_history_detil{background:url(/AccountV3/images/refund.gif) no-repeat right 50px;}
+.void_view .void_pic{background:url(../images/void.gif) no-repeat center 0;}
+.refund_receipt .payment_history_detil{background:url(../images/refund.gif) no-repeat right 50px;}
 .fee_reports{position:relative;}
 .fee_reports .audit_print{position:absolute;right:10px;top:10px;}
-.fee_summary_head{background:#f2f6f7 url(/AccountV3/images/fee_bg.png) no-repeat center 0;padding-bottom:10px;background-size:100%;}
+.fee_summary_head{background:#f2f6f7 url(../images/fee_bg.png) no-repeat center 0;padding-bottom:10px;background-size:100%;}
 .fee_summary_head label{width:60px;height:60px;display: inline-block;border-radius:50%;overflow: hidden;margin-top:10px;border:6px #89a9b4 solid;}
 .fee_summary_head label img{width:100%;}
 .fee_summary_head p{font-size:14px;color:#fff;}
@@ -1259,7 +1259,7 @@ a.ec_submenu_next:before{content:"\f125";color:#fff;font-family:FontAwesome;font
 .fee_auto_close_block1 li{border-top:1px #ddd solid;padding:2px 10px;position: relative;line-height:40px;}
 .fee_auto_close_block1 li select{font-weight:normal;background:#fff;border:1px #ddd solid;line-height:30px;height:30px;border-radius:4px;font-style: normal; vertical-align: middle;display: inline-block;}
 .fee_auto_close_block1 li input{padding:0 5px;line-height:30px;height:30px;border-radius:4px;-webkit-appearance:none;background:#fff;border:1px #ddd solid;}
-.fee_auto_close_block1 li input.txt_date{background:#fff url(/AccountV3/images/bi_date_icon.png) no-repeat right 6px;}
+.fee_auto_close_block1 li input.txt_date{background:#fff url(../images/bi_date_icon.png) no-repeat right 6px;}
 .fee_auto_close_block1 li a{position: absolute;right:10px;top:2px;line-height: 40px;text-align: center;}
 .fee_auto_close_block3 li a{position:relative;right:auto;top:auto;}
 .fee_auto_close_block2{padding:15px;}
@@ -1290,7 +1290,7 @@ table.fee_history tr:nth-child(2n+2) td{background:#f8f8f8;}
 .fee_report_block1 li{border-top:1px #ddd solid;padding:2px 10px;position: relative;line-height:40px;}
 .fee_report_block1 li select{font-weight:normal;background:#fff;border:1px #ddd solid;line-height:30px;height:30px;border-radius:4px;font-style: normal; vertical-align: middle;display: inline-block;}
 .fee_report_block1 li input{padding:0 5px;line-height:30px;height:30px;border-radius:4px;-webkit-appearance:none;background:#fff;border:1px #ddd solid;}
-.fee_report_block1 li input.txt_date{background:#fff url(/AccountV3/images/bi_date_icon.png) no-repeat right 6px;}
+.fee_report_block1 li input.txt_date{background:#fff url(../images/bi_date_icon.png) no-repeat right 6px;}
 .fee_report_block1 li a{line-height: 40px;vertical-align: middle;}
 @media screen and (max-width: 640px){
 .fee_dashboard li{width:100%;}
@@ -1563,7 +1563,7 @@ table.fee_history tr:nth-child(2n+2) td{background:#f8f8f8;}
 .observation_report .row1 span{width:48%;display: inline-block;margin:5px 0;}
 .observation_report .row1 span:first-child{width:52%;}
 .observation_report input.text{padding:0 5px;width:100%;line-height:30px;height:30px;border-radius:4px;-webkit-appearance:none;background:#fff;border:1px #ddd solid;}
-.observation_report input.text.date{background:#fff url(/AccountV3/images/bi_date_icon.png) no-repeat right center;width:45%;}
+.observation_report input.text.date{background:#fff url(../images/bi_date_icon.png) no-repeat right center;width:45%;}
 .observation_report textarea.textarea{padding:5px;width:100%;min-height:60px;line-height:26px;height:30px;border-radius:4px;-webkit-appearance:none;background:#fff;border:1px #ddd solid;font-weight:normal;}
 .observation_report select{font-weight:normal;background:#fff;border:1px #ddd solid;width:100%;line-height:30px;height:30px;border-radius:4px;font-style: normal;}
 .observation_report .row1 span:first-child select{width:92%;}
@@ -1703,7 +1703,7 @@ table.fee_history tr:nth-child(2n+2) td{background:#f8f8f8;}
 .book_list .head strong{color:#fb715e}
 .book_list2 li h1 span{right:40px;}
 .book_list2 li h1 .s_del{position:absolute;right:0;top:0;width:40px;}
-.book_list li h1 em{width:45px;height:45px;overflow:hidden;display:block;position: absolute;left:0;top:0;background:url(/AccountV3/images/no_pic_icon.png) no-repeat 0 0;background-size:100% 100%;}
+.book_list li h1 em{width:45px;height:45px;overflow:hidden;display:block;position: absolute;left:0;top:0;background:url(../images/no_pic_icon.png) no-repeat 0 0;background-size:100% 100%;}
 .book_list li h1 em img{width:100%;}
 .book_list2 li h1 p{color:#999;font-size:14px;margin-top:10px;}
 .book_list3 li{padding-left:10px;}
@@ -1715,7 +1715,7 @@ table.fee_history tr:nth-child(2n+2) td{background:#f8f8f8;}
 .book_list li h1 span{top:0;}
 }
 
-.book_list .add_item{border-radius:50%;display:inline-block;width: 40px;height:40px;background:#80d7f5 url(/AccountV3/images/add_fees.png) no-repeat center center;background-size: 80% 80%;vertical-align: middle;}
+.book_list .add_item{border-radius:50%;display:inline-block;width: 40px;height:40px;background:#80d7f5 url(../images/add_fees.png) no-repeat center center;background-size: 80% 80%;vertical-align: middle;}
 /*student table*/
 table{margin:10px auto;width:100%;}
 th{background:#e4eff2;color:#367fa9;border:1px #aed0ea  solid;padding:3px 2px;text-align: center;}
@@ -1793,7 +1793,7 @@ table .opt{line-height: 40px;}
 .inventory_list li p span strong{font-weight: normal;display: inline-block;margin-right:5px;}
 .inventory_list li p span.warn{position:absolute;right:0;top:0;font-size:14px;font-weight:bold;color:#fb715e;}
 .inventory_list li .head{position: relative;padding-left:65px;}
-.inventory_list li .head label{width:45px;height:45px;overflow:hidden;display:block;position: absolute;left:10px;top:0;background:url(/AccountV3/images/no_pic_icon.png) no-repeat 0 0;background-size:100%;}
+.inventory_list li .head label{width:45px;height:45px;overflow:hidden;display:block;position: absolute;left:10px;top:0;background:url(../images/no_pic_icon.png) no-repeat 0 0;background-size:100%;}
 .inventory_list li .head label img{width:100%;}
 .inventory_list .sub_area{background:#f2f6f7;}
 .inventory_list .sub_area p{margin-top:0;}
