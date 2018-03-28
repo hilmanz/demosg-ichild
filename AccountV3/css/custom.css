@@ -1,0 +1,15 @@
+
+
+.fix-post .staywhenscroll {
+  position: fixed;
+  z-index: 1;
+  top: 50px;
+  background: #f5f9fa;
+}
+.parent {width: 100%;}
+
+@media (max-width: 480px) {
+	.fix-post .staywhenscroll {
+		top:40px;
+	}
+}
